@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { getPayloadClient, formatDate, canAccessPremium } from '@/lib/payload-client'
 import { cookies } from 'next/headers'

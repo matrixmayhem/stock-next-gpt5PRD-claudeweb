@@ -1,3 +1,5 @@
+'use client'
+
 import { getPayloadClient } from '@/lib/payload-client'
 import ArticleCard from '@/components/ArticleCard'
 

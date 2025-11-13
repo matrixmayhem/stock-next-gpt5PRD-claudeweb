@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { getPayloadClient } from '@/lib/payload-client'
 import ArticleCard from '@/components/ArticleCard'
