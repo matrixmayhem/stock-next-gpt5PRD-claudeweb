@@ -1,4 +1,3 @@
-'use client'
 
 import { getPayloadClient } from '@/lib/payload-client'
 import ArticleCard from '@/components/ArticleCard'
@@ -62,39 +61,7 @@ export default async function WeeklyUpdatesPage() {
         </section>
       </div>
 
-      <style jsx>{`
-        .page {
-          padding: 3rem 0;
-        }
-
-        .page-hero {
-          text-align: center;
-          max-width: 800px;
-          margin: 0 auto 4rem;
-        }
-
-        .page-hero h1 {
-          margin-bottom: 1rem;
-        }
-
-        .page-description {
-          font-size: 1.125rem;
-          line-height: 1.6;
-          color: #4b5563;
-        }
-
-        .articles-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-          gap: 2rem;
-        }
-
-        @media (max-width: 768px) {
-          .articles-grid {
-            grid-template-columns: 1fr;
-          }
-        }
-      `}</style>
+      
     </div>
   )
 }
