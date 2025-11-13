@@ -18,8 +18,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
-      "@/payload-types": ["./payload-types.ts"]
+      "@/*": ["./src/*"],
+      "@/payload-types": ["./payload-types.ts"],
+      "@payload-config": ["./payload.config.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
